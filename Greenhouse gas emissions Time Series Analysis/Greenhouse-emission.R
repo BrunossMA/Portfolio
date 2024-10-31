@@ -14,7 +14,7 @@ source("My_functions.R")
 set.seed(224)
 
 # Read data from the CSV file
-dat <- read.csv("C:/Users/mauro/OneDrive/Desktop/Project Time Series/Wolrd/per-capita-ghg-emissions.csv", header = TRUE)
+dat <- read.csv("Greenhouse gas emissions Time Series Analysis/per-capita-ghg-emissions.csv", header = TRUE)
 
 # Filter data for France and reset row names
 data <- dat[dat[, 1] == "France", ]
